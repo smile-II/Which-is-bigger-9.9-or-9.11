@@ -1,5 +1,21 @@
 # Which is bigger, 9.9 or 9.11? LLM不会简单的比大小？
 
+## 已完成
+1. 提出并构建了一部分比大小数据集。
+![Comparison Errors Heatmap](float/output/analysis/comparison_errors_heatmap.png)
+
+flaot 文件夹为主要的实验结果
+
+## 未完成
+2. 在多个模型上进行广泛实验。
+3. 分析LLM在数值比较任务中的弱点。
+
+
+
+
+
+
+
 ## 摘要
 
 尽管LLM在复杂任务中表现出色，但在比较简单数值大小时却出现问题。
@@ -57,22 +73,7 @@ LLM的推理能力在这个问题上表现不佳。
 
 我们进行了不同温度设置、Few-shot、CoT等实验。
 
-通过不同任务实验，进一步验证了LLM的能力和缺陷。
-
-## 结论
-
-我们总结了LLM在数值比较任务中的表现，指出了其在数学逻辑推理方面的不足，并提出了改进方向。
-
-## 已完成
-1. 提出并构建了一部分比大小数据集。
-![Comparison Errors Heatmap](float/output/analysis/comparison_errors_heatmap.png)
-
-
-
-## 未完成
-2. 在多个模型上进行广泛实验。
-3. 分析LLM在数值比较任务中的弱点。
-
+通过不同任务实验，研究LLM的能力和缺陷。
 
 
 
