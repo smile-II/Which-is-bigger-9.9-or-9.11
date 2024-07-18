@@ -13,8 +13,13 @@
 ![](float/output/prompt_0/all_visualization-0.png)
 
 下面是在3600个数据集上的结果
-![](float/output/analysis/accuracy_plot.png)
-![](float/output/analysis/error_count_plot.png)
+
+<div align="center">
+    <img src="float/output/analysis/accuracy_plot.png" alt="Accuracy Plot" width="600"/>
+</div>
+<div align="center">
+    <img src="float/output/analysis/error_count_plot.png" alt="Error Count Plot" width="600"/>
+</div>
 
 # LLM 使用的 DeepSeekV2 调用情况
 ## 调用和 Token 使用情况
