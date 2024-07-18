@@ -2,7 +2,17 @@
 
 ## 已完成
 1. 提出并构建了一部分比大小数据集。
-![Comparison Errors Heatmap](float/output/output_0+1_zh/analysis/comparison_errors_heatmap.png)
+
+结论：小数部分0.11的错的最多
+0.10错的第二多
+其他位数基本不会错
+纯小数也不会错
+
+![](float/output/prompt_0/all_visualization-1.png)
+![](float/output/prompt_0/all_visualization-2.png)
+![](float/output/prompt_0/all_visualization-0.png)
+
+
 
 flaot 文件夹为主要的实验结果
 
