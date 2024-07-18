@@ -36,7 +36,12 @@ def chat_with_model(input_text, temperature=1):
 def process_single_entry(index, entry, temperature, prompt):
     question = prompt.format(entry['A'], entry['B'])
     answer = chat_with_model(question, temperature)
-    predicted_label = 'A' if 'A' in answer else 'B'
+    # predicted_label = 'A' if 'A' in answer else 'B'
+    predicted_label = 'B'
+    for char in reversed(answer.strip()):
+        if char == 'A' or char == 'B':
+            predicted_label = char
+            break
     result_entry = {
         'value of the integer part': entry.get('value of the integer part', None),
         # 'Number of fewer decimal places': entry.get('Number of fewer decimal places', None),
@@ -74,11 +79,12 @@ def load_and_test_dataset(file_path, output_file, temperature, prompt):
 
 def main(input_dir, output_dir, prompt_idx, repetitions, temperatures, file_paths):
     prompts = [
-        "Which is larger? A: {} B: {}   ## Please output only option A or option B.",
+        "Which is larger? A: {} B: {}   ## Please output only option A or option B.", 
         "Which of these two numbers is larger?  A: {} B: {}   ## Please output only option A or option B.",
         "Which of these two numbers is larger?  A: {} B: {}   ## Please think step by step, and output your option A or B for the last letter.",
-        "谁更大？ A: {} B: {} ",
-        "谁更大？ A: {} B: {}  ##只输出选项A或者B"
+        "谁更大？ A: {} B: {}  ##只输出选项A或者B",
+        "这两个数字谁更大？ A: {} B: {}  ##只输出选项A或者B",
+        "这两个数字谁更大？ A: {} B: {} ##一步一步思考，最后一个字母输出你的选项A或者B"
     ]
 
     prompt = prompts[prompt_idx]

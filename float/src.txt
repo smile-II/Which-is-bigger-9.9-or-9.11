@@ -1,4 +1,20 @@
-python evaluate.py  --prompt_idx 0 --temperatures 1 --file_paths 0-9_padded.json
+python evaluate.py  --prompt_idx 1 --temperatures 1.25 1 0.75 0.5 0.25 0 --file_paths 0-9.json
+
+
+python evaluate.py  --prompt_idx 4 --temperatures 1.25 1 0.75 0.5 0.25 0 --file_paths 0-9.json  测试规定数字
+
+prompt 2 5  测英文cot
+
+
+
+
+
+
+
+
+
+
+
 
 python evaluate.py  --prompt_idx 3 --temperatures 1 --file_paths 0-9.json
 

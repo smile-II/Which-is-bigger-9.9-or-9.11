@@ -22,7 +22,7 @@
 {"value of the integer part": 0, "A": "0.3", "B": "0.21", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.3", "B": "0.22", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.3", "B": "0.23", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 0, "A": "0.3", "B": "0.24", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 0, "A": "0.3", "B": "0.24", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 0, "A": "0.3", "B": "0.25", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.3", "B": "0.26", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.3", "B": "0.27", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -43,7 +43,7 @@
 {"value of the integer part": 0, "A": "0.4", "B": "0.22", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.4", "B": "0.23", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.4", "B": "0.24", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 0, "A": "0.4", "B": "0.25", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 0, "A": "0.4", "B": "0.25", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 0, "A": "0.4", "B": "0.26", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.4", "B": "0.27", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.4", "B": "0.28", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -77,15 +77,15 @@
 {"value of the integer part": 0, "A": "0.5", "B": "0.26", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.5", "B": "0.27", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.5", "B": "0.28", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 0, "A": "0.5", "B": "0.29", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 0, "A": "0.5", "B": "0.29", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 0, "A": "0.5", "B": "0.30", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.5", "B": "0.31", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 0, "A": "0.5", "B": "0.32", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 0, "A": "0.5", "B": "0.32", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 0, "A": "0.5", "B": "0.33", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.5", "B": "0.34", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.5", "B": "0.35", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.5", "B": "0.36", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 0, "A": "0.5", "B": "0.37", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 0, "A": "0.5", "B": "0.37", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 0, "A": "0.5", "B": "0.38", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.5", "B": "0.39", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.5", "B": "0.40", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -129,8 +129,8 @@
 {"value of the integer part": 0, "A": "0.6", "B": "0.38", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.6", "B": "0.39", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.6", "B": "0.40", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 0, "A": "0.6", "B": "0.41", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 0, "A": "0.6", "B": "0.42", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 0, "A": "0.6", "B": "0.41", "Label": "A", "Prediction": "A", "Answer": "Option A"}
+{"value of the integer part": 0, "A": "0.6", "B": "0.42", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 0, "A": "0.6", "B": "0.43", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.6", "B": "0.44", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.6", "B": "0.45", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -242,7 +242,7 @@
 {"value of the integer part": 0, "A": "0.8", "B": "0.41", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.8", "B": "0.42", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.8", "B": "0.43", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 0, "A": "0.8", "B": "0.44", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 0, "A": "0.8", "B": "0.44", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 0, "A": "0.8", "B": "0.45", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.8", "B": "0.46", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.8", "B": "0.47", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -263,7 +263,7 @@
 {"value of the integer part": 0, "A": "0.8", "B": "0.62", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.8", "B": "0.63", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.8", "B": "0.64", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 0, "A": "0.8", "B": "0.65", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 0, "A": "0.8", "B": "0.65", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 0, "A": "0.8", "B": "0.66", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.8", "B": "0.67", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.8", "B": "0.68", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -302,7 +302,7 @@
 {"value of the integer part": 0, "A": "0.9", "B": "0.31", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.9", "B": "0.32", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.9", "B": "0.33", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 0, "A": "0.9", "B": "0.34", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 0, "A": "0.9", "B": "0.34", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 0, "A": "0.9", "B": "0.35", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.9", "B": "0.36", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.9", "B": "0.37", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -313,7 +313,7 @@
 {"value of the integer part": 0, "A": "0.9", "B": "0.42", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.9", "B": "0.43", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.9", "B": "0.44", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 0, "A": "0.9", "B": "0.45", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 0, "A": "0.9", "B": "0.45", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 0, "A": "0.9", "B": "0.46", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.9", "B": "0.47", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 0, "A": "0.9", "B": "0.48", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -398,7 +398,7 @@
 {"value of the integer part": 1, "A": "1.4", "B": "1.17", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.4", "B": "1.18", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.4", "B": "1.19", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 1, "A": "1.4", "B": "1.20", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 1, "A": "1.4", "B": "1.20", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 1, "A": "1.4", "B": "1.21", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.4", "B": "1.22", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.4", "B": "1.23", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -451,7 +451,7 @@
 {"value of the integer part": 1, "A": "1.5", "B": "1.40", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.5", "B": "1.41", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.5", "B": "1.42", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 1, "A": "1.5", "B": "1.43", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 1, "A": "1.5", "B": "1.43", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 1, "A": "1.5", "B": "1.44", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.5", "B": "1.45", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.5", "B": "1.46", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -523,13 +523,13 @@
 {"value of the integer part": 1, "A": "1.7", "B": "1.22", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.7", "B": "1.23", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.7", "B": "1.24", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 1, "A": "1.7", "B": "1.25", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 1, "A": "1.7", "B": "1.25", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 1, "A": "1.7", "B": "1.26", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.7", "B": "1.27", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.7", "B": "1.28", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 1, "A": "1.7", "B": "1.29", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 1, "A": "1.7", "B": "1.29", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 1, "A": "1.7", "B": "1.30", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 1, "A": "1.7", "B": "1.31", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 1, "A": "1.7", "B": "1.31", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 1, "A": "1.7", "B": "1.32", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.7", "B": "1.33", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.7", "B": "1.34", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -569,7 +569,7 @@
 {"value of the integer part": 1, "A": "1.7", "B": "1.68", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.7", "B": "1.69", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.8", "B": "1.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 1, "A": "1.8", "B": "1.11", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 1, "A": "1.8", "B": "1.11", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 1, "A": "1.8", "B": "1.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.8", "B": "1.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.8", "B": "1.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -639,7 +639,7 @@
 {"value of the integer part": 1, "A": "1.8", "B": "1.78", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.8", "B": "1.79", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 1, "A": "1.9", "B": "1.11", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 1, "A": "1.9", "B": "1.11", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -657,7 +657,7 @@
 {"value of the integer part": 1, "A": "1.9", "B": "1.26", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.27", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.28", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 1, "A": "1.9", "B": "1.29", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 1, "A": "1.9", "B": "1.29", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.30", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.31", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.32", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -667,7 +667,7 @@
 {"value of the integer part": 1, "A": "1.9", "B": "1.36", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.37", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.38", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 1, "A": "1.9", "B": "1.39", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 1, "A": "1.9", "B": "1.39", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.40", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.41", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.42", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -675,7 +675,7 @@
 {"value of the integer part": 1, "A": "1.9", "B": "1.44", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.45", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.46", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 1, "A": "1.9", "B": "1.47", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 1, "A": "1.9", "B": "1.47", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.48", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.49", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.50", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -697,7 +697,7 @@
 {"value of the integer part": 1, "A": "1.9", "B": "1.66", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.67", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.68", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 1, "A": "1.9", "B": "1.69", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 1, "A": "1.9", "B": "1.69", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.70", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.71", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 1, "A": "1.9", "B": "1.72", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -753,7 +753,7 @@
 {"value of the integer part": 2, "A": "2.4", "B": "2.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.4", "B": "2.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.4", "B": "2.14", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 2, "A": "2.4", "B": "2.15", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 2, "A": "2.4", "B": "2.15", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 2, "A": "2.4", "B": "2.16", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.4", "B": "2.17", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.4", "B": "2.18", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -810,7 +810,7 @@
 {"value of the integer part": 2, "A": "2.5", "B": "2.39", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.5", "B": "2.40", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.5", "B": "2.41", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 2, "A": "2.5", "B": "2.42", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 2, "A": "2.5", "B": "2.42", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 2, "A": "2.5", "B": "2.43", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.5", "B": "2.44", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.5", "B": "2.45", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -819,7 +819,7 @@
 {"value of the integer part": 2, "A": "2.5", "B": "2.48", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.5", "B": "2.49", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.6", "B": "2.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 2, "A": "2.6", "B": "2.11", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 2, "A": "2.6", "B": "2.11", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.6", "B": "2.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.6", "B": "2.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.6", "B": "2.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -839,7 +839,7 @@
 {"value of the integer part": 2, "A": "2.6", "B": "2.28", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.6", "B": "2.29", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.6", "B": "2.30", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 2, "A": "2.6", "B": "2.31", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 2, "A": "2.6", "B": "2.31", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 2, "A": "2.6", "B": "2.32", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.6", "B": "2.33", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.6", "B": "2.34", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -866,7 +866,7 @@
 {"value of the integer part": 2, "A": "2.6", "B": "2.55", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.6", "B": "2.56", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.6", "B": "2.57", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 2, "A": "2.6", "B": "2.58", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 2, "A": "2.6", "B": "2.58", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 2, "A": "2.6", "B": "2.59", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.7", "B": "2.10", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.7", "B": "2.11", "Label": "A", "Prediction": "B", "Answer": "B"}
@@ -929,7 +929,7 @@
 {"value of the integer part": 2, "A": "2.7", "B": "2.68", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.7", "B": "2.69", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.8", "B": "2.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 2, "A": "2.8", "B": "2.11", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 2, "A": "2.8", "B": "2.11", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 2, "A": "2.8", "B": "2.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.8", "B": "2.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.8", "B": "2.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -973,7 +973,7 @@
 {"value of the integer part": 2, "A": "2.8", "B": "2.52", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.8", "B": "2.53", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.8", "B": "2.54", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 2, "A": "2.8", "B": "2.55", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 2, "A": "2.8", "B": "2.55", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 2, "A": "2.8", "B": "2.56", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.8", "B": "2.57", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.8", "B": "2.58", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -1015,7 +1015,7 @@
 {"value of the integer part": 2, "A": "2.9", "B": "2.24", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.9", "B": "2.25", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.9", "B": "2.26", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 2, "A": "2.9", "B": "2.27", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 2, "A": "2.9", "B": "2.27", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 2, "A": "2.9", "B": "2.28", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.9", "B": "2.29", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 2, "A": "2.9", "B": "2.30", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -1125,7 +1125,7 @@
 {"value of the integer part": 3, "A": "3.4", "B": "3.24", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.4", "B": "3.25", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.4", "B": "3.26", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 3, "A": "3.4", "B": "3.27", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 3, "A": "3.4", "B": "3.27", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 3, "A": "3.4", "B": "3.28", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.4", "B": "3.29", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.4", "B": "3.30", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -1139,7 +1139,7 @@
 {"value of the integer part": 3, "A": "3.4", "B": "3.38", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.4", "B": "3.39", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.5", "B": "3.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 3, "A": "3.5", "B": "3.11", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 3, "A": "3.5", "B": "3.11", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 3, "A": "3.5", "B": "3.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.5", "B": "3.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.5", "B": "3.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -1179,7 +1179,7 @@
 {"value of the integer part": 3, "A": "3.5", "B": "3.48", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.5", "B": "3.49", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.6", "B": "3.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 3, "A": "3.6", "B": "3.11", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 3, "A": "3.6", "B": "3.11", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.6", "B": "3.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.6", "B": "3.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.6", "B": "3.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -1289,7 +1289,7 @@
 {"value of the integer part": 3, "A": "3.7", "B": "3.68", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.7", "B": "3.69", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.8", "B": "3.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 3, "A": "3.8", "B": "3.11", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 3, "A": "3.8", "B": "3.11", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 3, "A": "3.8", "B": "3.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.8", "B": "3.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.8", "B": "3.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -1359,7 +1359,7 @@
 {"value of the integer part": 3, "A": "3.8", "B": "3.78", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.8", "B": "3.79", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.9", "B": "3.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 3, "A": "3.9", "B": "3.11", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 3, "A": "3.9", "B": "3.11", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 3, "A": "3.9", "B": "3.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.9", "B": "3.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.9", "B": "3.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -1395,7 +1395,7 @@
 {"value of the integer part": 3, "A": "3.9", "B": "3.44", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.9", "B": "3.45", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.9", "B": "3.46", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 3, "A": "3.9", "B": "3.47", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 3, "A": "3.9", "B": "3.47", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 3, "A": "3.9", "B": "3.48", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.9", "B": "3.49", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.9", "B": "3.50", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -1411,7 +1411,7 @@
 {"value of the integer part": 3, "A": "3.9", "B": "3.60", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.9", "B": "3.61", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.9", "B": "3.62", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 3, "A": "3.9", "B": "3.63", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 3, "A": "3.9", "B": "3.63", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 3, "A": "3.9", "B": "3.64", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.9", "B": "3.65", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 3, "A": "3.9", "B": "3.66", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -1469,7 +1469,7 @@
 {"value of the integer part": 4, "A": "4.3", "B": "4.28", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 4, "A": "4.3", "B": "4.29", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 4, "A": "4.4", "B": "4.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 4, "A": "4.4", "B": "4.11", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 4, "A": "4.4", "B": "4.11", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 4, "A": "4.4", "B": "4.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 4, "A": "4.4", "B": "4.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 4, "A": "4.4", "B": "4.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -1589,7 +1589,7 @@
 {"value of the integer part": 4, "A": "4.6", "B": "4.58", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 4, "A": "4.6", "B": "4.59", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 4, "A": "4.7", "B": "4.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 4, "A": "4.7", "B": "4.11", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 4, "A": "4.7", "B": "4.11", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 4, "A": "4.7", "B": "4.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 4, "A": "4.7", "B": "4.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 4, "A": "4.7", "B": "4.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -1744,7 +1744,7 @@
 {"value of the integer part": 4, "A": "4.9", "B": "4.33", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 4, "A": "4.9", "B": "4.34", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 4, "A": "4.9", "B": "4.35", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 4, "A": "4.9", "B": "4.36", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 4, "A": "4.9", "B": "4.36", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 4, "A": "4.9", "B": "4.37", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 4, "A": "4.9", "B": "4.38", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 4, "A": "4.9", "B": "4.39", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -1809,7 +1809,7 @@
 {"value of the integer part": 5, "A": "5.2", "B": "5.18", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.2", "B": "5.19", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.3", "B": "5.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 5, "A": "5.3", "B": "5.11", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 5, "A": "5.3", "B": "5.11", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.3", "B": "5.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.3", "B": "5.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.3", "B": "5.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -1840,7 +1840,7 @@
 {"value of the integer part": 5, "A": "5.4", "B": "5.19", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.4", "B": "5.20", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.4", "B": "5.21", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 5, "A": "5.4", "B": "5.22", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 5, "A": "5.4", "B": "5.22", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 5, "A": "5.4", "B": "5.23", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.4", "B": "5.24", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.4", "B": "5.25", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -1899,7 +1899,7 @@
 {"value of the integer part": 5, "A": "5.5", "B": "5.48", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.5", "B": "5.49", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.6", "B": "5.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 5, "A": "5.6", "B": "5.11", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 5, "A": "5.6", "B": "5.11", "Label": "A", "Prediction": "B", "Answer": "Option B"}
 {"value of the integer part": 5, "A": "5.6", "B": "5.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.6", "B": "5.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.6", "B": "5.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -1948,7 +1948,7 @@
 {"value of the integer part": 5, "A": "5.6", "B": "5.57", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.6", "B": "5.58", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.6", "B": "5.59", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 5, "A": "5.7", "B": "5.10", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 5, "A": "5.7", "B": "5.10", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.7", "B": "5.11", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 5, "A": "5.7", "B": "5.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.7", "B": "5.13", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2008,8 +2008,8 @@
 {"value of the integer part": 5, "A": "5.7", "B": "5.67", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.7", "B": "5.68", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.7", "B": "5.69", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 5, "A": "5.8", "B": "5.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 5, "A": "5.8", "B": "5.11", "Label": "A", "Prediction": "B", "Answer": "B: 5.11"}
+{"value of the integer part": 5, "A": "5.8", "B": "5.10", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 5, "A": "5.8", "B": "5.11", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2039,8 +2039,8 @@
 {"value of the integer part": 5, "A": "5.8", "B": "5.38", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.39", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.40", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 5, "A": "5.8", "B": "5.41", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 5, "A": "5.8", "B": "5.42", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 5, "A": "5.8", "B": "5.41", "Label": "A", "Prediction": "A", "Answer": "Option A"}
+{"value of the integer part": 5, "A": "5.8", "B": "5.42", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.43", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.44", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.45", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2048,7 +2048,7 @@
 {"value of the integer part": 5, "A": "5.8", "B": "5.47", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.48", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.49", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 5, "A": "5.8", "B": "5.50", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 5, "A": "5.8", "B": "5.50", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.51", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.52", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.53", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2067,7 +2067,7 @@
 {"value of the integer part": 5, "A": "5.8", "B": "5.66", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.67", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.68", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 5, "A": "5.8", "B": "5.69", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 5, "A": "5.8", "B": "5.69", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.70", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.71", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.72", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2078,13 +2078,13 @@
 {"value of the integer part": 5, "A": "5.8", "B": "5.77", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.78", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.8", "B": "5.79", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 5, "A": "5.9", "B": "5.10", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 5, "A": "5.9", "B": "5.10", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.9", "B": "5.11", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 5, "A": "5.9", "B": "5.12", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 5, "A": "5.9", "B": "5.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.9", "B": "5.14", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.9", "B": "5.15", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 5, "A": "5.9", "B": "5.16", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 5, "A": "5.9", "B": "5.16", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 5, "A": "5.9", "B": "5.17", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.9", "B": "5.18", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.9", "B": "5.19", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2119,7 +2119,7 @@
 {"value of the integer part": 5, "A": "5.9", "B": "5.48", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.9", "B": "5.49", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.9", "B": "5.50", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 5, "A": "5.9", "B": "5.51", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 5, "A": "5.9", "B": "5.51", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 5, "A": "5.9", "B": "5.52", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.9", "B": "5.53", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 5, "A": "5.9", "B": "5.54", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2172,7 +2172,7 @@
 {"value of the integer part": 6, "A": "6.3", "B": "6.11", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.3", "B": "6.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.3", "B": "6.13", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 6, "A": "6.3", "B": "6.14", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 6, "A": "6.3", "B": "6.14", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 6, "A": "6.3", "B": "6.15", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.3", "B": "6.16", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.3", "B": "6.17", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2231,7 +2231,7 @@
 {"value of the integer part": 6, "A": "6.5", "B": "6.20", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.5", "B": "6.21", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.5", "B": "6.22", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 6, "A": "6.5", "B": "6.23", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 6, "A": "6.5", "B": "6.23", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 6, "A": "6.5", "B": "6.24", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.5", "B": "6.25", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.5", "B": "6.26", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2286,7 +2286,7 @@
 {"value of the integer part": 6, "A": "6.6", "B": "6.35", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.6", "B": "6.36", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.6", "B": "6.37", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 6, "A": "6.6", "B": "6.38", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 6, "A": "6.6", "B": "6.38", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 6, "A": "6.6", "B": "6.39", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.6", "B": "6.40", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.6", "B": "6.41", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2327,7 +2327,7 @@
 {"value of the integer part": 6, "A": "6.7", "B": "6.26", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.7", "B": "6.27", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.7", "B": "6.28", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 6, "A": "6.7", "B": "6.29", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 6, "A": "6.7", "B": "6.29", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 6, "A": "6.7", "B": "6.30", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.7", "B": "6.31", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.7", "B": "6.32", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2372,14 +2372,14 @@
 {"value of the integer part": 6, "A": "6.8", "B": "6.11", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.13", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 6, "A": "6.8", "B": "6.14", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 6, "A": "6.8", "B": "6.14", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.15", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.16", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.17", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.18", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.19", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.20", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 6, "A": "6.8", "B": "6.21", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 6, "A": "6.8", "B": "6.21", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.22", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.23", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.24", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2393,7 +2393,7 @@
 {"value of the integer part": 6, "A": "6.8", "B": "6.32", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.33", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.34", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 6, "A": "6.8", "B": "6.35", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 6, "A": "6.8", "B": "6.35", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.36", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.37", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.38", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2403,7 +2403,7 @@
 {"value of the integer part": 6, "A": "6.8", "B": "6.42", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.43", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.44", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 6, "A": "6.8", "B": "6.45", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 6, "A": "6.8", "B": "6.45", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.46", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.47", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.48", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2439,15 +2439,15 @@
 {"value of the integer part": 6, "A": "6.8", "B": "6.78", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.8", "B": "6.79", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.9", "B": "6.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 6, "A": "6.9", "B": "6.11", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 6, "A": "6.9", "B": "6.11", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.9", "B": "6.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.9", "B": "6.13", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 6, "A": "6.9", "B": "6.14", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 6, "A": "6.9", "B": "6.14", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.9", "B": "6.15", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.9", "B": "6.16", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.9", "B": "6.17", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.9", "B": "6.18", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 6, "A": "6.9", "B": "6.19", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 6, "A": "6.9", "B": "6.19", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 6, "A": "6.9", "B": "6.20", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.9", "B": "6.21", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 6, "A": "6.9", "B": "6.22", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2554,13 +2554,13 @@
 {"value of the integer part": 7, "A": "7.4", "B": "7.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.4", "B": "7.14", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.4", "B": "7.15", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.4", "B": "7.16", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 7, "A": "7.4", "B": "7.16", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 7, "A": "7.4", "B": "7.17", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.4", "B": "7.18", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.4", "B": "7.19", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.4", "B": "7.20", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.4", "B": "7.21", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.4", "B": "7.22", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 7, "A": "7.4", "B": "7.22", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 7, "A": "7.4", "B": "7.23", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.4", "B": "7.24", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.4", "B": "7.25", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2572,7 +2572,7 @@
 {"value of the integer part": 7, "A": "7.4", "B": "7.31", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.4", "B": "7.32", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.4", "B": "7.33", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.4", "B": "7.34", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 7, "A": "7.4", "B": "7.34", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 7, "A": "7.4", "B": "7.35", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.4", "B": "7.36", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.4", "B": "7.37", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2635,21 +2635,21 @@
 {"value of the integer part": 7, "A": "7.6", "B": "7.24", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.25", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.26", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.6", "B": "7.27", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 7, "A": "7.6", "B": "7.27", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.28", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.29", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.30", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.31", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.6", "B": "7.32", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 7, "A": "7.6", "B": "7.32", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.33", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.6", "B": "7.34", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 7, "A": "7.6", "B": "7.34", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.35", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.36", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.37", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.38", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.39", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.40", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.6", "B": "7.41", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 7, "A": "7.6", "B": "7.41", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.42", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.43", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.6", "B": "7.44", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2672,7 +2672,7 @@
 {"value of the integer part": 7, "A": "7.7", "B": "7.11", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.13", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.7", "B": "7.14", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 7, "A": "7.7", "B": "7.14", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.15", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.16", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.17", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2687,7 +2687,7 @@
 {"value of the integer part": 7, "A": "7.7", "B": "7.26", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.27", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.28", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.7", "B": "7.29", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 7, "A": "7.7", "B": "7.29", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.30", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.31", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.32", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2700,7 +2700,7 @@
 {"value of the integer part": 7, "A": "7.7", "B": "7.39", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.40", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.41", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.7", "B": "7.42", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 7, "A": "7.7", "B": "7.42", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.43", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.44", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.45", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2729,7 +2729,7 @@
 {"value of the integer part": 7, "A": "7.7", "B": "7.68", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.7", "B": "7.69", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.8", "B": "7.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.8", "B": "7.11", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 7, "A": "7.8", "B": "7.11", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.8", "B": "7.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.8", "B": "7.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.8", "B": "7.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2752,7 +2752,7 @@
 {"value of the integer part": 7, "A": "7.8", "B": "7.31", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.8", "B": "7.32", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.8", "B": "7.33", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.8", "B": "7.34", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 7, "A": "7.8", "B": "7.34", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 7, "A": "7.8", "B": "7.35", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.8", "B": "7.36", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.8", "B": "7.37", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2763,7 +2763,7 @@
 {"value of the integer part": 7, "A": "7.8", "B": "7.42", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.8", "B": "7.43", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.8", "B": "7.44", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.8", "B": "7.45", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 7, "A": "7.8", "B": "7.45", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 7, "A": "7.8", "B": "7.46", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.8", "B": "7.47", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.8", "B": "7.48", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2815,7 +2815,7 @@
 {"value of the integer part": 7, "A": "7.9", "B": "7.24", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.9", "B": "7.25", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.9", "B": "7.26", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.9", "B": "7.27", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 7, "A": "7.9", "B": "7.27", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 7, "A": "7.9", "B": "7.28", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.9", "B": "7.29", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.9", "B": "7.30", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2853,10 +2853,10 @@
 {"value of the integer part": 7, "A": "7.9", "B": "7.62", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.9", "B": "7.63", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.9", "B": "7.64", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.9", "B": "7.65", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 7, "A": "7.9", "B": "7.65", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 7, "A": "7.9", "B": "7.66", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.9", "B": "7.67", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 7, "A": "7.9", "B": "7.68", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 7, "A": "7.9", "B": "7.68", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 7, "A": "7.9", "B": "7.69", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.9", "B": "7.70", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 7, "A": "7.9", "B": "7.71", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2953,13 +2953,13 @@
 {"value of the integer part": 8, "A": "8.5", "B": "8.22", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.5", "B": "8.23", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.5", "B": "8.24", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 8, "A": "8.5", "B": "8.25", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 8, "A": "8.5", "B": "8.25", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 8, "A": "8.5", "B": "8.26", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.5", "B": "8.27", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.5", "B": "8.28", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.5", "B": "8.29", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.5", "B": "8.30", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 8, "A": "8.5", "B": "8.31", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 8, "A": "8.5", "B": "8.31", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 8, "A": "8.5", "B": "8.32", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.5", "B": "8.33", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.5", "B": "8.34", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -2994,7 +2994,7 @@
 {"value of the integer part": 8, "A": "8.6", "B": "8.23", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.6", "B": "8.24", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.6", "B": "8.25", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 8, "A": "8.6", "B": "8.26", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 8, "A": "8.6", "B": "8.26", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 8, "A": "8.6", "B": "8.27", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.6", "B": "8.28", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.6", "B": "8.29", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -3028,7 +3028,7 @@
 {"value of the integer part": 8, "A": "8.6", "B": "8.57", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.6", "B": "8.58", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.6", "B": "8.59", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 8, "A": "8.7", "B": "8.10", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 8, "A": "8.7", "B": "8.10", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 8, "A": "8.7", "B": "8.11", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 8, "A": "8.7", "B": "8.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.7", "B": "8.13", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -3054,7 +3054,7 @@
 {"value of the integer part": 8, "A": "8.7", "B": "8.33", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.7", "B": "8.34", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.7", "B": "8.35", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 8, "A": "8.7", "B": "8.36", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 8, "A": "8.7", "B": "8.36", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 8, "A": "8.7", "B": "8.37", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.7", "B": "8.38", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.7", "B": "8.39", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -3088,8 +3088,8 @@
 {"value of the integer part": 8, "A": "8.7", "B": "8.67", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.7", "B": "8.68", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.7", "B": "8.69", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 8, "A": "8.8", "B": "8.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 8, "A": "8.8", "B": "8.11", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 8, "A": "8.8", "B": "8.10", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 8, "A": "8.8", "B": "8.11", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 8, "A": "8.8", "B": "8.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.8", "B": "8.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.8", "B": "8.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -3161,7 +3161,7 @@
 {"value of the integer part": 8, "A": "8.9", "B": "8.10", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.9", "B": "8.11", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.9", "B": "8.12", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 8, "A": "8.9", "B": "8.13", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 8, "A": "8.9", "B": "8.13", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 8, "A": "8.9", "B": "8.14", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.9", "B": "8.15", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 8, "A": "8.9", "B": "8.16", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -3364,7 +3364,7 @@
 {"value of the integer part": 9, "A": "9.6", "B": "9.33", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.6", "B": "9.34", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.6", "B": "9.35", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 9, "A": "9.6", "B": "9.36", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 9, "A": "9.6", "B": "9.36", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 9, "A": "9.6", "B": "9.37", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.6", "B": "9.38", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.6", "B": "9.39", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -3381,7 +3381,7 @@
 {"value of the integer part": 9, "A": "9.6", "B": "9.50", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.6", "B": "9.51", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.6", "B": "9.52", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 9, "A": "9.6", "B": "9.53", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 9, "A": "9.6", "B": "9.53", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 9, "A": "9.6", "B": "9.54", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.6", "B": "9.55", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.6", "B": "9.56", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -3389,7 +3389,7 @@
 {"value of the integer part": 9, "A": "9.6", "B": "9.58", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.6", "B": "9.59", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.7", "B": "9.10", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 9, "A": "9.7", "B": "9.11", "Label": "A", "Prediction": "B", "Answer": "B"}
+{"value of the integer part": 9, "A": "9.7", "B": "9.11", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.7", "B": "9.12", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.7", "B": "9.13", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.7", "B": "9.14", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -3428,10 +3428,10 @@
 {"value of the integer part": 9, "A": "9.7", "B": "9.47", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.7", "B": "9.48", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.7", "B": "9.49", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 9, "A": "9.7", "B": "9.50", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 9, "A": "9.7", "B": "9.50", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 9, "A": "9.7", "B": "9.51", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.7", "B": "9.52", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 9, "A": "9.7", "B": "9.53", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 9, "A": "9.7", "B": "9.53", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 9, "A": "9.7", "B": "9.54", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.7", "B": "9.55", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.7", "B": "9.56", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -3467,7 +3467,7 @@
 {"value of the integer part": 9, "A": "9.8", "B": "9.26", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.8", "B": "9.27", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.8", "B": "9.28", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 9, "A": "9.8", "B": "9.29", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 9, "A": "9.8", "B": "9.29", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 9, "A": "9.8", "B": "9.30", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.8", "B": "9.31", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.8", "B": "9.32", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -3521,7 +3521,7 @@
 {"value of the integer part": 9, "A": "9.9", "B": "9.10", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.11", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.12", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 9, "A": "9.9", "B": "9.13", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 9, "A": "9.9", "B": "9.13", "Label": "A", "Prediction": "B", "Answer": "B"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.14", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.15", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.16", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -3541,7 +3541,7 @@
 {"value of the integer part": 9, "A": "9.9", "B": "9.30", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.31", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.32", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 9, "A": "9.9", "B": "9.33", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 9, "A": "9.9", "B": "9.33", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.34", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.35", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.36", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -3561,7 +3561,7 @@
 {"value of the integer part": 9, "A": "9.9", "B": "9.50", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.51", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.52", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 9, "A": "9.9", "B": "9.53", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 9, "A": "9.9", "B": "9.53", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.54", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.55", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.56", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -3571,7 +3571,7 @@
 {"value of the integer part": 9, "A": "9.9", "B": "9.60", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.61", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.62", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 9, "A": "9.9", "B": "9.63", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 9, "A": "9.9", "B": "9.63", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.64", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.65", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.66", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -3583,7 +3583,7 @@
 {"value of the integer part": 9, "A": "9.9", "B": "9.72", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.73", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.74", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 9, "A": "9.9", "B": "9.75", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 9, "A": "9.9", "B": "9.75", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.76", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.77", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.78", "Label": "A", "Prediction": "A", "Answer": "A"}
@@ -3592,7 +3592,7 @@
 {"value of the integer part": 9, "A": "9.9", "B": "9.81", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.82", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.83", "Label": "A", "Prediction": "A", "Answer": "A"}
-{"value of the integer part": 9, "A": "9.9", "B": "9.84", "Label": "A", "Prediction": "A", "Answer": "A"}
+{"value of the integer part": 9, "A": "9.9", "B": "9.84", "Label": "A", "Prediction": "A", "Answer": "Option A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.85", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.86", "Label": "A", "Prediction": "A", "Answer": "A"}
 {"value of the integer part": 9, "A": "9.9", "B": "9.87", "Label": "A", "Prediction": "A", "Answer": "A"}
