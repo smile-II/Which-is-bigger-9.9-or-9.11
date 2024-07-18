@@ -3,14 +3,47 @@
 ## 已完成
 1. 提出并构建了一部分比大小数据集。
 
-结论：小数部分0.11的错的最多
-0.10错的第二多
-其他位数基本不会错
-纯小数也不会错
 
+## 可视化结果
+
+
+下面是9900个数据集上的结果，红点是错误的预测，蓝点是正确的
 ![](float/output/prompt_0/all_visualization-1.png)
 ![](float/output/prompt_0/all_visualization-2.png)
 ![](float/output/prompt_0/all_visualization-0.png)
+
+下面是在3600个数据集上的结果
+![](float/output/analysis/accuracy_plot.png)
+![](float/output/analysis/error_count_plot.png)
+
+# LLM 使用的 DeepSeekV2 调用情况
+## 调用和 Token 使用情况
+- 十几万次的调用，以及上千万的 token.
+![](float/picture/api.png)
+
+## 数据集
+生成了以下三种情况的数据：
+1. 3600 条小数位长度不同但整数位相同的数据，例如 9.11 和 9.9（一位小数大于两位小数）。
+2. 3600 条补零后小数位相同的数据，例如 9.11 和 9.90。
+3. 9900 条不仅包含一位小数大于两位小数，还包含一位小数小于两位小数的数据，例如 9.99 和 9.9。
+
+## Prompt
+测试了以下 5 种不同的 prompt，包含中文和英文：
+- prompt_0: `Which is larger? A: {} B: {} ## Please output only option A or option B.`
+- prompt_1: `Which of these two numbers is larger? A: {} B: {} ## Please output only option A or option B.`
+- prompt_2: `Which of these two numbers is larger? A: {} B: {} ## Please think step by step, and output your option A or B for the last letter.`
+- prompt_3: `谁更大？ A: {} B: {} ##只输出选项A或者B`
+- prompt_4: `这两个数字谁更大？ A: {} B: {} ##只输出选项A或者B`
+
+每种 prompt 测试了六种温度情况：[1.25, 1, 0.75, 0.5, 0.25, 0]
+
+## 结论
+以下结论仅代表 DeepSeekV2：
+1. LLM 可以理解纯小数比大小，例如 0.11 和 0.9，也可以理解整数比大小，例如 1 和 9。
+2. 补零基本可以让 LLM 完全答对。
+3. COT 基本也可以解决这个问题。
+4. LLM 错误最多的情况是 X.11，其次是 X.10（X 代表 1 到 9 的整数）。
+5. 温度越高，错误率基本不变，偶尔上升。
 
 
 
