@@ -18,5 +18,5 @@ class APIClient:
         return response.choices[0].message.content
 
 # 示例调用
-# client1 = APIClient(api_key="sk-599eb172897344d0ba73ac3548c1e50a", base_url="https://api.deepseek.com", model="deepseek-chat")
-# client2 = APIClient(api_key="f2df1c53e85d3045c88abe21f6b75c26.Qd6UHkWnYqQUXMiW", base_url="https://open.bigmodel.cn/api/paas/v4/", model="glm-4-flash")
+# client1 = APIClient(api_key="your-key", base_url="https://api.deepseek.com", model="deepseek-chat")
+# client2 = APIClient(api_key="your-key", base_url="https://open.bigmodel.cn/api/paas/v4/", model="glm-4-flash")

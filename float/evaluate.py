@@ -20,7 +20,7 @@ def chat_with_model(input_text, temperature=1):
     )
     return response.choices[0].message.content
 
-# client = OpenAI(api_key="f2df1c53e85d3045c88abe21f6b75c26.Qd6UHkWnYqQUXMiW",base_url="https://open.bigmodel.cn/api/paas/v4/") 
+# client = OpenAI(api_key="your-key",base_url="https://open.bigmodel.cn/api/paas/v4/") 
 # def chat_with_model(input_text, temperature=1):
 #     # 调用OpenAI API的chat接口
 #     response = client.chat.completions.create(
