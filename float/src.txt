@@ -1,0 +1,3 @@
+python evaluate.py  --prompt_idx 0 
+python evaluate.py --input_dir float/data --output_dir float/output --prompt_idx 1 --repetitions 2 --temperatures 0.75 1 1.25
+python evaluate.py --input_dir float/data --output_dir float/output --prompt_idx 2 --repetitions 1 --temperatures 0 1
