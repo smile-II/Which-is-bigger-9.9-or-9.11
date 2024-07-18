@@ -2,7 +2,7 @@
 
 ## 已完成
 1. 提出并构建了一部分比大小数据集。
-![Comparison Errors Heatmap](float/output/analysis/comparison_errors_heatmap.png)
+![Comparison Errors Heatmap](float\output\output_0+1_zh\analysis\comparison_errors_heatmap.png)
 
 flaot 文件夹为主要的实验结果
 
