@@ -1,3 +1,6 @@
-python evaluate.py  --prompt_idx 0 
-python evaluate.py --input_dir float/data --output_dir float/output --prompt_idx 1 --repetitions 2 --temperatures 0.75 1 1.25
-python evaluate.py --input_dir float/data --output_dir float/output --prompt_idx 2 --repetitions 1 --temperatures 0 1
+python evaluate.py  --prompt_idx 0 --temperatures 1 --file_paths 0-9_padded.json
+
+python evaluate.py  --prompt_idx 3 --temperatures 1 --file_paths 0-9.json
+
+python evaluate.py --input_dir data --output_dir output --prompt_idx 2 --repetitions 1 --temperatures 0 1
+python evaluate.py --input_dir your_input_dir --output_dir your_output_dir --prompt_idx 0 --repetitions 1 --temperatures 0 0.25 0.5 0.75 1 1.25 --file_paths 0.json all.json

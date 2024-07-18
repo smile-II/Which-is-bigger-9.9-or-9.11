@@ -1,30 +1,13 @@
 import argparse
 import json
 import os
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 from openai import OpenAI
 from tqdm import tqdm 
 import concurrent.futures
-
-def evaluate_binary_classification(y_true, y_pred):
-    accuracy = accuracy_score(y_true, y_pred)
-    precision = precision_score(y_true, y_pred, pos_label='A')
-    recall = recall_score(y_true, y_pred, pos_label='A')
-    f1 = f1_score(y_true, y_pred, pos_label='A')
-    cm = confusion_matrix(y_true, y_pred)
-    
-    results = {
-        'accuracy': accuracy,
-        'precision': precision,
-        'recall': recall,
-        'f1_score': f1,
-        'confusion_matrix': cm.tolist()
-    }
-
-    return results
+from metrics import evaluate_binary_classification
+from api_client import APIClient
 
 client = OpenAI(api_key="sk-599eb172897344d0ba73ac3548c1e50a", base_url="https://api.deepseek.com")
-
 def chat_with_model(input_text, temperature=1):
     response = client.chat.completions.create(
         model="deepseek-chat",
@@ -36,6 +19,19 @@ def chat_with_model(input_text, temperature=1):
         temperature=temperature,
     )
     return response.choices[0].message.content
+
+# client = OpenAI(api_key="f2df1c53e85d3045c88abe21f6b75c26.Qd6UHkWnYqQUXMiW",base_url="https://open.bigmodel.cn/api/paas/v4/") 
+# def chat_with_model(input_text, temperature=1):
+#     # 调用OpenAI API的chat接口
+#     response = client.chat.completions.create(
+#         model="glm-4-flash",
+#         messages=[
+#             {"role": "system", "content": "你是一个友好的助手。"},
+#             {"role": "user", "content": input_text}
+#         ],
+#         stream=False,
+#     )
+#     return response.choices[0].message.content
 
 def process_single_entry(index, entry, temperature, prompt):
     question = prompt.format(entry['A'], entry['B'])
@@ -76,11 +72,13 @@ def load_and_test_dataset(file_path, output_file, temperature, prompt):
 
     return y_true, y_pred
 
-def main(input_dir, output_dir, prompt_idx, repetitions, temperatures):
+def main(input_dir, output_dir, prompt_idx, repetitions, temperatures, file_paths):
     prompts = [
         "Which is larger? A: {} B: {}   ## Please output only option A or option B.",
         "Which of these two numbers is larger?  A: {} B: {}   ## Please output only option A or option B.",
-        "Which of these two numbers is larger?  A: {} B: {}   ## Please think step by step, and output your option A or B for the last letter."
+        "Which of these two numbers is larger?  A: {} B: {}   ## Please think step by step, and output your option A or B for the last letter.",
+        "谁更大？ A: {} B: {} ",
+        "谁更大？ A: {} B: {}  ##只输出选项A或者B"
     ]
 
     prompt = prompts[prompt_idx]
@@ -88,10 +86,6 @@ def main(input_dir, output_dir, prompt_idx, repetitions, temperatures):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
-    file_paths = [
-        '0-9.json'
-    ]
-
     for i in range(repetitions):
         for file_path in file_paths:
             input_file = os.path.join(input_dir, file_path)
@@ -107,14 +101,14 @@ def main(input_dir, output_dir, prompt_idx, repetitions, temperatures):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run model with different prompts")
-    parser.add_argument("--input_dir", type=str, default=r'data', help="Input directory for the dataset")
-    parser.add_argument("--output_dir", type=str, default=r'output', help="Output directory for the results")
-    parser.add_argument("--prompt_idx", type=int, default=0, choices=[0, 1, 2], help="Index of the prompt to use")
+    parser.add_argument("--input_dir", type=str, default='data', help="Input directory for the dataset")
+    parser.add_argument("--output_dir", type=str, default='output', help="Output directory for the results")
+    parser.add_argument("--prompt_idx", type=int, default=4, choices=[0, 1, 2, 3, 4], help="Index of the prompt to use")
     parser.add_argument("--repetitions", type=int, default=1, help="Number of repetitions for the experiment")
     parser.add_argument("--temperatures", type=float, nargs='+', default=[1.25, 1, 0.75, 0.5, 0.25, 0], help="List of temperatures to use for the model")
+    parser.add_argument('--file_paths', type=str, nargs='+', default=['test.json'], help='List of file paths to process')
     args = parser.parse_args()
 
-    input_dir = args.input_dir
     output_dir = os.path.join(args.output_dir, f'prompt_{args.prompt_idx}')
     
-    main(input_dir, output_dir, args.prompt_idx, args.repetitions, args.temperatures)
+    main(args.input_dir, output_dir, args.prompt_idx, args.repetitions, args.temperatures, args.file_paths)
