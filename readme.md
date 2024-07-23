@@ -3,9 +3,11 @@
 ## 已完成
 1. 提出并构建了一部分比大小数据集。
 
+## 更新 2024.7.23
+高频错误的数字统计
+![统计高频错误的数字](float/output/data_visualization/error_count_by_B_and_prompt.png)
 
 ## 可视化结果
-
 
 下面是9900个数据集上的结果，红点是错误的预测，蓝点是正确的
 ![](float/output/prompt_0/all_visualization-1.png)

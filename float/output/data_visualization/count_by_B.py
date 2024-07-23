@@ -16,6 +16,10 @@ df = pd.DataFrame(data)
 # 统计每个 B 选项和 prompt 组合的错误数量
 error_counts = df.groupby(['B', 'prompt']).size().unstack(fill_value=0)
 
+# 计算每个 B 选项的总错误数量并排序
+total_errors = error_counts.sum(axis=1).sort_values(ascending=False)
+error_counts = error_counts.loc[total_errors.index]
+
 # 创建颜色映射
 colors = {'prompt_0': 'skyblue', 'prompt_1': 'orange', 'prompt_2': 'green', 'prompt_3': 'red', 'prompt_4': 'purple'}
 
@@ -29,13 +33,13 @@ ax.set_ylabel('Number of Errors')
 ax.set_title('Number of Errors for Each B Option by Prompt')
 
 # 旋转横坐标上的数字
-plt.xticks(rotation=90)
+plt.xticks(rotation=90, fontsize=8)
 
 # 添加图例
 ax.legend(title='Prompt')
 
 # 保存图表
-plt.savefig('float/output/data_visualization/error_count_by_B_and_prompt.png')
-
+# plt.savefig('float/output/data_visualization/error_count_by_B_and_prompt.png')
+plt.savefig('float/output/data_visualization/error_count_by_B_and_prompt.png', dpi=300)
 # 显示图表
-plt.show()
+# plt.show()
