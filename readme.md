@@ -25,8 +25,8 @@
 
 # LLM 使用的 DeepSeekV2 调用情况
 ## 调用和 Token 使用情况
-- 十几万次的调用，以及上千万的 token.
-![](float/picture/api.png)
+- 十几万次调用，千万 token.
+![](picture/api.png)
 
 ## 数据集
 生成了以下三种情况的数据：
