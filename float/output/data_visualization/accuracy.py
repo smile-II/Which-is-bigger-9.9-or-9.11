@@ -48,10 +48,10 @@ for directory in directories:
         plt.plot(valid_temperatures, accuracies, marker='o', label=directory)
 plt.xlabel('Threshold')
 plt.ylabel('Accuracy')
-plt.title('Accuracy for Different Prompts and Thresholds')
+plt.title('Accuracy for Different Prompts and Temperature')
 plt.legend()
 plt.grid(True)
-plt.savefig('analysis/accuracy_plot.png')
+plt.savefig('data_visualization/accuracy_plot.png')
 # plt.show()
 
 # 绘制错误数量图
@@ -64,8 +64,8 @@ for directory in directories:
         plt.plot(valid_temperatures, errors, marker='o', label=directory)
 plt.xlabel('Threshold')
 plt.ylabel('Error Count')
-plt.title('Error Count for Different Prompts and Thresholds')
+plt.title('Error Count for Different Prompts and Temperature')
 plt.legend()
 plt.grid(True)
-plt.savefig('analysis/error_count_plot.png')
+plt.savefig('data_visualization/error_count_plot.png')
 # plt.show()
