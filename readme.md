@@ -5,22 +5,22 @@
 
 ## 更新 2024.7.23
 高频错误的数字统计
-![统计高频错误的数字](float/output/data_visualization/error_count_by_B_and_prompt.png)
+![统计高频错误的数字](output/data_visualization/error_count_by_B_and_prompt.png)
 
 ## 可视化结果
 
 下面是9900个数据集上的结果，红点是错误的预测，蓝点是正确的
-![](float/output/prompt_0/all_visualization-1.png)
-![](float/output/prompt_0/all_visualization-2.png)
-![](float/output/prompt_0/all_visualization-0.png)
+![](output/model_output/prompt_0/all_visualization-1.png)
+![](output/model_output/prompt_0/all_visualization-2.png)
+![](output/model_output/prompt_0/all_visualization-0.png)
 
 下面是在3600个数据集上的结果
 
 <div align="center">
-    <img src="float/output/analysis/accuracy_plot.png" alt="Accuracy Plot" width="600"/>
+    <img src="output/data_visualization/accuracy_plot.png" alt="Accuracy Plot" width="600"/>
 </div>
 <div align="center">
-    <img src="float/output/analysis/error_count_plot.png" alt="Error Count Plot" width="600"/>
+    <img src="output/data_visualization/error_count_plot.png" alt="Error Count Plot" width="600"/>
 </div>
 
 # LLM 使用的 DeepSeekV2 调用情况
