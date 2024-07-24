@@ -31,12 +31,14 @@ def train():
             real_labels = torch.ones(batch_size, 1).cuda()
             fake_labels = torch.zeros(batch_size, 1).cuda()
 
-            # ÑµÁ·ÅĞ±ğÆ÷
+            # è®­ç»ƒåˆ¤åˆ«å™¨
             real_outputs = D(input_ids.view(batch_size, -1).float())
             d_loss_real = criterion(real_outputs, real_labels)
 
             z = torch.randn(batch_size, latent_size).cuda()
-            fake_ids = G.generate(z).view(batch_size, -1).float()
+            fake_texts = [G.generate("Random text") for _ in range(batch_size)]
+            fake_inputs = G.tokenizer(fake_texts, return_tensors='pt', padding=True, truncation=True, max_length=max_length)
+            fake_ids = fake_inputs['input_ids'].cuda().view(batch_size, -1).float()
             fake_outputs = D(fake_ids)
             d_loss_fake = criterion(fake_outputs, fake_labels)
 
@@ -45,9 +47,11 @@ def train():
             d_loss.backward()
             optimizerD.step()
 
-            # ÑµÁ·Éú³ÉÆ÷
+            # è®­ç»ƒç”Ÿæˆå™¨
             z = torch.randn(batch_size, latent_size).cuda()
-            fake_ids = G.generate(z).view(batch_size, -1).float()
+            fake_texts = [G.generate("Random text") for _ in range(batch_size)]
+            fake_inputs = G.tokenizer(fake_texts, return_tensors='pt', padding=True, truncation=True, max_length=max_length)
+            fake_ids = fake_inputs['input_ids'].cuda().view(batch_size, -1).float()
             outputs = D(fake_ids)
             g_loss = criterion(outputs, real_labels)
 

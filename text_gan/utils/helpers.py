@@ -1,3 +1,5 @@
+import torch
+
 def save_model(model, file_path):
     torch.save(model.state_dict(), file_path)
 

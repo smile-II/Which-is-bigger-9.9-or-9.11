@@ -15,6 +15,7 @@ class Generator(nn.Module):
         return logits
 
     def generate(self, input_text, max_length=128):
+        # 确保输入张量在CUDA设备上
         inputs = self.tokenizer.encode_plus(
             input_text,
             add_special_tokens=True,
@@ -23,9 +24,12 @@ class Generator(nn.Module):
             truncation=True,
             return_tensors='pt'
         )
-        input_ids = inputs['input_ids']
-        attention_mask = inputs['attention_mask']
+        input_ids = inputs['input_ids'].to('cuda')
+        attention_mask = inputs['attention_mask'].to('cuda')
+        
+        # 生成文本
         with torch.no_grad():
             logits = self.forward(input_ids, attention_mask)
             predictions = torch.argmax(logits, dim=-1)
+        
         return self.tokenizer.decode(predictions[0], skip_special_tokens=True)
