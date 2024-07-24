@@ -13,7 +13,7 @@ def denorm(x):
     return out.clamp(0, 1)
 
 def train():
-    batch_size = 256
+    batch_size = 64
     image_size = 28 * 28  # 784
     hidden_size = 256
     latent_size = 64
@@ -64,6 +64,8 @@ def train():
             fake_images = G(z)
             outputs = D(fake_images)
             g_loss = criterion(outputs, real_labels) #计算生成器生成的图像被判别后和真标签的损失
+            
+            
 
             optimizerG.zero_grad()
             g_loss.backward()
