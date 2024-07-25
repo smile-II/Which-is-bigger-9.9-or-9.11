@@ -18,25 +18,34 @@ class Generator(nn.Module):
 
     def generate_from_latent(self, z, max_length=128):
         # 将 z 线性变换到 BERT 的隐藏大小
-        hidden_states = self.linear(z)
-        # 使用一个简单的方法生成文本，这里假设生成的文本为 "Random text" 加上 hidden_states
-        generated_texts = ["Random text " + " ".join([str(h.item()) for h in hidden_states[i]])[:max_length] for i in range(z.size(0))]
+        hidden_states = self.linear(z).unsqueeze(1)  # (batch_size, 1, hidden_size)
+        sequence = torch.zeros((z.size(0), max_length), dtype=torch.long).cuda()
+
+        for i in range(max_length):
+            outputs = self.output_linear(hidden_states)
+            probabilities = torch.softmax(outputs, dim=-1)
+            predicted_token = torch.argmax(probabilities, dim=-1)
+            sequence[:, i] = predicted_token.squeeze()
+            if i < max_length - 1:
+                hidden_states = self.linear(z).unsqueeze(1)  # 更新hidden_states，保持形状一致
+
+        generated_texts = [self.tokenizer.decode(seq, skip_special_tokens=True) for seq in sequence]
         return generated_texts
 
-    def generate(self, input_text, max_length=128):
-        inputs = self.tokenizer.encode_plus(
-            input_text,
-            add_special_tokens=True,
-            max_length=max_length,
-            padding='max_length',
-            truncation=True,
-            return_tensors='pt'
-        )
-        input_ids = inputs['input_ids'].to('cuda')
-        attention_mask = inputs['attention_mask'].to('cuda')
+    # def generate(self, input_text, max_length=128):
+    #     inputs = self.tokenizer.encode_plus(
+    #         input_text,
+    #         add_special_tokens=True,
+    #         max_length=max_length,
+    #         padding='max_length',
+    #         truncation=True,
+    #         return_tensors='pt'
+    #     )
+    #     input_ids = inputs['input_ids'].to('cuda')
+    #     attention_mask = inputs['attention_mask'].to('cuda')
         
-        with torch.no_grad():
-            logits = self.forward(input_ids, attention_mask)
-            predictions = torch.argmax(logits, dim=-1)
+    #     with torch.no_grad():
+    #         logits = self.forward(input_ids, attention_mask)
+    #         predictions = torch.argmax(logits, dim=-1)
         
-        return self.tokenizer.decode(predictions[0], skip_special_tokens=True)
+    #     return self.tokenizer.decode(predictions[0], skip_special_tokens=True)

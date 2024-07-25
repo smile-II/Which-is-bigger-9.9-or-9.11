@@ -45,13 +45,14 @@ def train():
             # 使用生成的数据
             z = torch.randn(batch_size, latent_size).cuda()
             fake_texts = G.generate_from_latent(z, max_length=max_length)
+            print(f"{fake_texts}")
             fake_inputs = G.tokenizer(fake_texts, return_tensors='pt', padding=True, truncation=True, max_length=max_length)
             fake_ids = fake_inputs['input_ids'].cuda()
             fake_attention_mask = fake_inputs['attention_mask'].cuda()
 
             fake_outputs = D(fake_ids, fake_attention_mask)
             d_loss_fake = criterion(fake_outputs, fake_labels)
-            fake_score = outputs
+            fake_score = fake_outputs
 
             # 总的判别器损失
             d_loss = d_loss_real + d_loss_fake
@@ -75,7 +76,7 @@ def train():
 
             if (i+1) % 10 == 0:
                 print(f'Epoch [{epoch+1}/{num_epochs}], Step [{i+1}], '
-                      f'D Loss: {d_loss.item():.4f}, G Loss: {g_loss.item():.4f}'
+                      f'D Loss: {d_loss.item():.4f}, G Loss: {g_loss.item():.4f}, '
                       f'D(x): {real_score.mean().item():.2f}, D(G(z)): {fake_score.mean().item():.2f}')
 
         # 每10个epoch结束后保存模型
