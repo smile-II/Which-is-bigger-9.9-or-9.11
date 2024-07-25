@@ -1,17 +1,16 @@
 import torch
 import torch.nn as nn
+from transformers import BertModel, BertTokenizer
 
 class Discriminator(nn.Module):
-    def __init__(self, input_size, hidden_size, output_size):
+    def __init__(self, bert_model_name='bert-base-uncased'):
         super(Discriminator, self).__init__()
-        self.main = nn.Sequential(
-            nn.Linear(input_size, hidden_size),
-            nn.LeakyReLU(0.2, inplace=True),
-            nn.Linear(hidden_size, hidden_size),
-            nn.LeakyReLU(0.2, inplace=True),
-            nn.Linear(hidden_size, output_size),
-            nn.Sigmoid()
-        )
+        self.bert = BertModel.from_pretrained(bert_model_name)
+        self.classifier = nn.Linear(self.bert.config.hidden_size, 1)
+        self.sigmoid = nn.Sigmoid()
 
-    def forward(self, x):
-        return self.main(x)
+    def forward(self, input_ids, attention_mask):
+        outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask)
+        pooled_output = outputs.pooler_output
+        logits = self.classifier(pooled_output)
+        return self.sigmoid(logits)
