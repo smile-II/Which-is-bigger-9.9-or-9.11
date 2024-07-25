@@ -8,7 +8,7 @@ def get_data_loader(batch_size):
         transforms.Normalize(mean=[0.5], std=[0.5])
     ])
 
-    mnist = torchvision.datasets.MNIST(root='./data', train=True, transform=transform, download=True)
+    mnist = torchvision.datasets.MNIST(root='simple_gan/data', train=True, transform=transform, download=True)
     data_loader = DataLoader(dataset=mnist, batch_size=batch_size, shuffle=True)
     
     return data_loader

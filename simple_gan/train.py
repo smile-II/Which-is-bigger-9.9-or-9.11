@@ -49,6 +49,7 @@ def train():
             real_score = outputs 
 
             z = torch.randn(batch_size, latent_size).to('cuda')
+            print(z)
             fake_images = G(z) #生成器生成的图像
             outputs = D(fake_images) #生成假图像判别
             d_loss_fake = criterion(outputs, fake_labels) #判别成假标签

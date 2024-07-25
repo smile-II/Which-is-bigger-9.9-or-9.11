@@ -6,18 +6,18 @@ from models.discriminator import Discriminator
 from data.data_loader import get_data_loader
 from utils.helpers import save_model
 from sklearn.datasets import fetch_20newsgroups
+import random
 
 def train():
     batch_size = 16
     max_length = 128
-    latent_size = 100
     num_epochs = 50
     learning_rate = 0.0002
-
+    hidden_size = 768
     # 加载数据集
     # 加载真实的数据集
     newsgroups_data = fetch_20newsgroups(subset='train')
-    texts = newsgroups_data.data[:1600]  # 使用前160个文本进行训练
+    texts = newsgroups_data.data[:1600]  # 使用前160个文本进行训练 
     data_loader = get_data_loader(texts, batch_size, max_length)
 
     # 初始化生成器和判别器
@@ -46,8 +46,9 @@ def train():
             real_score = real_outputs
 
             # 使用生成的数据
-            z = torch.randn(batch_size, latent_size).cuda()
-            fake_texts = G.generate_from_latent(z, max_length=max_length)
+            length = min(len(random.choice(texts).split()),512)
+            z = torch.randn(batch_size, length * hidden_size).to("cuda")
+            fake_texts = G.generate_from_latent(z, length=length)
             if (i+1) % 10 == 0:
                 print(f"{fake_texts}")
             fake_inputs = G.tokenizer(fake_texts, return_tensors='pt', padding=True, truncation=True, max_length=max_length)
@@ -65,8 +66,8 @@ def train():
             optimizerD.step()
 
             # 训练生成器
-            z = torch.randn(batch_size, latent_size).cuda()
-            fake_texts = G.generate_from_latent(z, max_length=max_length)
+            z = torch.randn(batch_size, length * hidden_size).to("cuda")
+            fake_texts = G.generate_from_latent(z, length=length)
             fake_inputs = G.tokenizer(fake_texts, return_tensors='pt', padding=True, truncation=True, max_length=max_length)
             fake_ids = fake_inputs['input_ids'].cuda()
             fake_attention_mask = fake_inputs['attention_mask'].cuda()
