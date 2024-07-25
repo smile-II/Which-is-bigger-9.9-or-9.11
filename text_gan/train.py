@@ -5,16 +5,14 @@ from models.generator import Generator
 from models.discriminator import Discriminator
 from data.data_loader import get_data_loader
 
-# 训练过程
 def train():
     batch_size = 16
     max_length = 128
-    hidden_size = 768  # BERT hidden size
     latent_size = 100
     num_epochs = 5
     learning_rate = 0.0002
 
-    texts = ["Example text data for training."] * 100  # Replace with your dataset
+    texts = ["Example text data for training."] * 160  # Replace with your dataset
     data_loader = get_data_loader(texts, batch_size, max_length)
 
     G = Generator().cuda()

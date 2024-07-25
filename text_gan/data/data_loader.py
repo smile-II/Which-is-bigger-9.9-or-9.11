@@ -2,7 +2,6 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer
 
-# 数据集和数据加载器
 class TextDataset(Dataset):
     def __init__(self, texts, tokenizer, max_length=128):
         self.texts = texts

@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from transformers import BertModel, BertTokenizer
+from transformers import BertModel
 
 class Discriminator(nn.Module):
     def __init__(self, bert_model_name='bert-base-uncased'):
