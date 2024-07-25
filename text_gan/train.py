@@ -7,17 +7,20 @@ from data.data_loader import get_data_loader
 from utils.helpers import save_model
 from sklearn.datasets import fetch_20newsgroups
 import random
+import os
+
+os.environ["CUDA_LAUNCH_BLOCKING"] = "1"  # 设置环境变量以便调试
 
 def train():
     batch_size = 16
     max_length = 128
     num_epochs = 50
     learning_rate = 0.0002
-    hidden_size = 768
-    # 加载数据集
+    hidden_size = 768  # GPT-2的隐藏大小
+
     # 加载真实的数据集
     newsgroups_data = fetch_20newsgroups(subset='train')
-    texts = newsgroups_data.data[:1600]  # 使用前160个文本进行训练 
+    texts = newsgroups_data.data[:160]  # 使用前160个文本进行训练
     data_loader = get_data_loader(texts, batch_size, max_length)
 
     # 初始化生成器和判别器
@@ -46,8 +49,9 @@ def train():
             real_score = real_outputs
 
             # 使用生成的数据
-            length = min(len(random.choice(texts).split()),512)
+            length = min(len(random.choice(texts).split()), max_length)  # 确保长度不超过max_length
             z = torch.randn(batch_size, length * hidden_size).to("cuda")
+            print(f'z shape in train: {z.shape}')  # 打印 z 的形状
             fake_texts = G.generate_from_latent(z, length=length)
             if (i+1) % 10 == 0:
                 print(f"{fake_texts}")
@@ -66,18 +70,20 @@ def train():
             optimizerD.step()
 
             # 训练生成器
-            z = torch.randn(batch_size, length * hidden_size).to("cuda")
-            fake_texts = G.generate_from_latent(z, length=length)
-            fake_inputs = G.tokenizer(fake_texts, return_tensors='pt', padding=True, truncation=True, max_length=max_length)
-            fake_ids = fake_inputs['input_ids'].cuda()
-            fake_attention_mask = fake_inputs['attention_mask'].cuda()
+            for _ in range(10):
+                z = torch.randn(batch_size, length * hidden_size).to("cuda")
+                print(f'z shape in generator training: {z.shape}')  # 打印 z 的形状
+                fake_texts = G.generate_from_latent(z, length=length)
+                fake_inputs = G.tokenizer(fake_texts, return_tensors='pt', padding=True, truncation=True, max_length=max_length)
+                fake_ids = fake_inputs['input_ids'].cuda()
+                fake_attention_mask = fake_inputs['attention_mask'].cuda()
 
-            outputs = D(fake_ids, fake_attention_mask)
-            g_loss = criterion(outputs, real_labels)
+                outputs = D(fake_ids, fake_attention_mask)
+                g_loss = criterion(outputs, real_labels)
 
-            optimizerG.zero_grad()
-            g_loss.backward()
-            optimizerG.step()
+                optimizerG.zero_grad()
+                g_loss.backward()
+                optimizerG.step()
 
             if (i+1) % 10 == 0:
                 print(f'Epoch [{epoch+1}/{num_epochs}], Step [{i+1}], '
@@ -85,9 +91,9 @@ def train():
                       f'D(x): {real_score.mean().item():.2f}, D(G(z)): {fake_score.mean().item():.2f}')
 
         # 每10个epoch结束后保存模型
-        # if (epoch + 1) % 10 == 0:
-        #     save_model(G, f'text_gan/output/generator_epoch_{epoch+1}.pth')
-        #     save_model(D, f'text_gan/output/discriminator_epoch_{epoch+1}.pth')
+        if (epoch + 1) % 10 == 0:
+            save_model(G, f'text_gan/output/generator_epoch_{epoch+1}.pth')
+            save_model(D, f'text_gan/output/discriminator_epoch_{epoch+1}.pth')
 
 if __name__ == '__main__':
     train()
