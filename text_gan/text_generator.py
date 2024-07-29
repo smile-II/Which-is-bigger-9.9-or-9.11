@@ -3,10 +3,6 @@ from transformers import BertTokenizer
 from models.generator import Generator
 from utils.helpers import load_model
             
-            
-            
-
-
 def main():
     tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
     generator = Generator().cuda()
