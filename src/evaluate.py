@@ -7,7 +7,7 @@ import concurrent.futures
 from metrics import evaluate_binary_classification
 from api_client import APIClient
 
-client = OpenAI(api_key="sk-210cdb196c744a5c8596105ebc7d3184", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="xxx", base_url="https://api.deepseek.com")
 def chat_with_model(input_text, temperature=1):
     response = client.chat.completions.create(
         model="deepseek-chat",
