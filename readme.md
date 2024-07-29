@@ -1,7 +1,7 @@
 # Which is bigger, 9.9 or 9.11? LLM不会简单的比大小？
 
 ## 已完成
-1. 提出并构建了一部分比大小数据集。
+1. 构建了一部分比大小数据集。
 
 ## 项目更新
 
@@ -9,6 +9,15 @@
 
 - 对抗生成思路生成幻觉问题，给出50个问题，正确率是多少
 
+
+## 2024.7.29
+- 使用ChatGLM3-6B 发现不存在这个问题
+
+[ChatGLM3-6B实验结果](GAN_LLM/prompt_gan/data/output/prompt_1/filtered_errors_final_results.json)
+
+[ChatGLM3-6B回答](GAN_LLM/prompt_gan/data/output/prompt_1/filtered_errors_results.json)
+- 针对X.11的数字统计
+![](output/prompt_1/greater_than_11_comparisons_10times_results_t=0.0-0.png)
 
 ### 2024.7.23
 高频错误的数字统计
